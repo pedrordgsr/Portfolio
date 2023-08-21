@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Rajdhani", sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-image: url("bg2.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: black!important;
+}
+
+.card {
+    background-color: black;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    border: var(--bs-card-border-width) solid rgb(255 0 0);
+    border-radius: unset;
+}
+
+.progress-bar{
+    background-color: #ff0000;
+}
+
+.navbarPedro{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.img-social:hover {
+    fill: #fff;
+    transition: ease .2s;
+}
+
+.links{
+    display:flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.img-social{
+
+    margin-right: 5px;
+}
