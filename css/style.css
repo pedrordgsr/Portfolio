@@ -14,7 +14,7 @@ body {
 }
 
 .card {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.726);
     box-shadow: 0px 0px 20px rgb(255, 0, 0);
     border: var(--bs-card-border-width) solid rgb(255 0 0);
     border-radius: unset;
@@ -45,11 +45,11 @@ body {
 }
 
 .caixa{
-    width: 500px;
+    width: 800px;
     height:500px;
     box-shadow: 0px 0px 20px rgb(255, 0, 0);
     border: 1px solid rgb(255 0 0);
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.822);
 }
 
 .container-central{
@@ -57,4 +57,5 @@ body {
     margin:unset;
     padding:unset;
     justify-content: center;
+    align-items: center;
 }
