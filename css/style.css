@@ -18,6 +18,16 @@ body {
     box-shadow: 0px 0px 20px rgb(255, 0, 0);
     border: var(--bs-card-border-width) solid rgb(255 0 0);
     border-radius: unset;
+    transition: 0.3s;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.726);
+    box-shadow: 0px 0px 30px rgb(255, 0, 0);
+    border: var(--bs-card-border-width) solid rgb(255 0 0);
+    border-radius: unset;
+    transition: 0.3s;
+    width:19rem!important;
 }
 
 .progress-bar{
@@ -50,7 +60,9 @@ body {
     box-shadow: 0px 0px 20px rgb(255, 0, 0);
     border: 1px solid rgb(255 0 0);
     background-color: rgba(0, 0, 0, 0.822);
+    transition: 0.3s;
 }
+
 
 .container-central{
     display:flex;
@@ -58,4 +70,13 @@ body {
     padding:unset;
     justify-content: center;
     align-items: center;
+}
+
+.caixa:hover{
+    width: 820px;
+    height:510px;
+    box-shadow: 0px 0px 30px rgb(255, 0, 0);
+    border: 1px solid rgb(255 0 0);
+    background-color: rgba(0, 0, 0, 0.822);
+    transition: 0.3s;
 }
