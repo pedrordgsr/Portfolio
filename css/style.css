@@ -27,9 +27,17 @@ body {
     border: var(--bs-card-border-width) solid rgb(255 0 0);
     border-radius: unset;
     transition: 0.3s;
-    width:19rem!important;
-}
+    width:20rem!important;
 
+}
+.chv:hover{
+    width:19rem!important;
+    transition: 0.3s;
+    height:24rem!important;
+}
+.chv{
+    transition: 0.3s;
+}
 .progress-bar{
     background-color: #ff0000;
 }
@@ -37,6 +45,8 @@ body {
 .navbarPedro{
     display:flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    
 }
 
 .img-social:hover {
@@ -47,7 +57,8 @@ body {
 .links{
     display:flex;
     justify-content: space-evenly;
-    width: 50%;
+    width:50%;
+
 }
 
 .img-social{
@@ -70,6 +81,8 @@ body {
     padding:unset;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .caixa:hover{
@@ -79,4 +92,60 @@ body {
     border: 1px solid rgb(255 0 0);
     background-color: rgba(0, 0, 0, 0.822);
     transition: 0.3s;
+}
+
+.textosUp{
+    transition: 0.3s;
+}
+
+.textosUp:hover{
+    text-shadow: 0px 0px 7px white;
+    transition: 0.3s;
+}
+
+@media (max-width:768px){
+    .navbarPedro{
+        display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+    .links{
+        display: flex;
+    justify-content: center;
+    width: 50%;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .caixa{
+        width: 400px;
+        height:1200px;
+        box-shadow: 0px 0px 20px rgb(255, 0, 0);
+        border: 1px solid rgb(255 0 0);
+        background-color: rgba(0, 0, 0, 0.822);
+        transition: 0.3s;
+        display:flex;
+        flex-direction: column;
+        padding:5px;
+    }
+    .caixa:hover{
+        width: 420px;
+        height:1220px;
+        box-shadow: 0px 0px 20px rgb(255, 0, 0);
+        border: 1px solid rgb(255 0 0);
+        background-color: rgba(0, 0, 0, 0.822);
+        transition: 0.3s;
+        display:flex;
+        flex-direction: column;
+        padding:5px;
+        box-shadow: 0px 0px 30px rgb(255, 0, 0);
+    border: 1px solid rgb(255 0 0);
+    }
+    .img-perfil{
+
+        height:55%;
+        width:92%;
+    }
 }
